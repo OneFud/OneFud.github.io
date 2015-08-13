@@ -1,0 +1,184 @@
+html{
+	background-color: rgb(177, 164, 144);
+	background-color: rgb(235, 136, 3);
+	background-color: rgb(214, 236, 255);/*
+	background-color: rgb(254,212,107);*/
+}
+.fud{
+	color: navy;
+	background-color: goldenrod;
+	border: 4px solid navy;
+	border-radius: 4px;
+	font-weight: bold;
+}
+/*navbar*/
+#navemb{
+	position: fixed;
+	left: 10%;
+	top: 0px;
+	z-index: 1;
+	width: 80%;
+	height: 3em;
+}
+#navemb:hover{
+	height: 100%;
+}
+/*navbar.html*/
+#nav{
+	background-color: transparent;
+}
+#navbar{
+	background-color: rgb(78,91,111);
+	line-height: 1.5em;
+	text-align: center;
+	font-family: TW Cen MT, Trebuchet, Verdana, sans-serif;
+	min-height: 1.5em;
+	border-radius: 0px 0px 8px 8px;
+	padding: 0px 2% 0px 2%;
+	width: 96%;
+}
+#navdat{
+	display: inline;
+	list-style: none;
+	font-family: TW Cen MT, Trebuchet, Verdana, sans-serif;
+	width: 100%;
+	padding: 0px;
+}
+#_1{
+	background-color: rgb(127, 209, 59);
+	color: white;
+}
+#_2{
+	background-color: rgb(234, 21, 122);
+	color: white;
+}
+#_3{
+	background-color: rgb(254, 184, 10);
+	color: white;
+}
+#_4{
+	background-color: rgb(0, 173, 220);
+	color: white;
+}
+#_5{
+	background-color: rgb(115, 138, 200);
+	color: white;
+}
+#_6{
+	background-color: rgb(27, 179, 159);
+	color: white;
+}
+#navdat a{
+	color: inherit;
+	text-decoration: inherit;
+}
+#navdat li{
+	float: left;
+	width: calc(100% / 6);
+	font-size: 1.2em;
+	line-height: 1.5em;
+	height: 1.5em;
+	overflow: hidden;
+	position: relative;
+	font-variant: small-caps;
+}
+#navdat li:hover{
+	background-color: rgb(214, 236, 255);
+	color: black;
+	transition: background-color .5s ease-in-out, color .5s ease-in-out;
+	overflow: visible;
+}
+#navdrop{
+	position: absolute;
+	top: 1.5em;
+	padding: 0px;
+	width: 100%;
+	color: white;
+}
+#navdrop li{
+	background-color: rgb(78, 91, 111);
+	float: none;
+	width: 100%;
+	font-variant: normal;
+	font-size: 0em;
+	visibility: hidden;
+	height: 0em;
+	list-style: none;
+	color: transparent;
+}
+#navdat li:hover #navdrop li{
+	visibility: visible;
+	height: 1.5em;
+	font-size: calc(1em / 1.2);
+	color: inherit;
+	transition: height .5s ease-in-out, font-size .5s ease-in-out, color .5s ease-in-out, background-color .5s ease-in-out;
+}
+#navdat li #navdrop li:hover{
+	background-color: rgb(214, 236, 255);
+	color: black;
+}
+/*Recipe Pages*/
+#title{
+	line-height: 2em;
+	font-family: TW Cen MT, Trebuchet, Verdana, sans-serif;
+	font-size: 2em;
+	height: 4em;
+	background: radial-gradient(farthest-side at 20% 75%, rgb(178,227,137), rgb(214,236,255));
+	margin: 1.6em 0px 0px 0px;
+	padding: 5px;
+	position: relative;
+}
+#webname{
+	position: absolute;
+	right: 0px;
+	color: inherit;
+	text-decoration: inherit;
+}
+#rcpttl{
+	position: absolute;
+	bottom: 0px;
+}
+#recipe{
+	background-color: rgb(78,91,111);
+	min-height: calc(100% - 5.6em - 15px);
+	padding: 0px 5px 5px 0px;
+	margin: 5px 0px 0px 0px;
+}
+#picturebox, #ingredients, #method{
+	background-color: rgb(214,236,255);
+	border-radius: 3px;
+	padding: 5px;
+	position: relative;
+}
+#picturebox{
+	min-height: calc(100% - 40px);
+	width: calc(30% - 15px);
+	margin: 5px 0px 0px 5px;
+
+	float: left;
+}
+#picturebox img{
+	width: 100%;
+	border-radius: 3px;
+	box-shadow: 2px 4px 2px rgb(242,114,175);
+	height: 350px;
+}
+#ingredients, #method{
+	width: calc(70% - 15px);
+	min-height: 30%;
+	margin: 5px 0px 0px 5px;
+	float: right;
+}
+.clear-fix{
+	clear: both;
+}
+#ingredients{
+	background: radial-gradient(rgb(153, 255, 153),rgb(102, 255, 255));
+}
+#method{
+	background: radial-gradient(rgb(153, 255, 153),rgb(102, 255, 255));
+}
+#recipe{
+	background: radial-gradient(rgb(255, 204, 255),rgb(255, 255, 204))
+}
+
