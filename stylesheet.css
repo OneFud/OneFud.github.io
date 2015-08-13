@@ -141,13 +141,13 @@ body{
 /*Recipe Pages*/
 #title{
 	line-height: 2em;
-	font-family: TW Cen MT, Trebuchet, Verdana, sans-serif;
-	font-size: 2em;
-	height: 3em;
-	background: radial-gradient(farthest-side at 20% 75%, rgb(178,227,137), rgb(214,236,255));
-	margin: 1.6em 0px 0px 0px;
-	padding: 5px;
-	position: relative;
+  font-family: TW Cen MT, Trebuchet, Verdana, sans-serif;
+  font-size: 2em;
+  height: 3em;
+  background: radial-gradient(farthest-side at 20% 75%, rgb(178,227,137), rgb(214,236,255));
+  margin: 1.6em 0px 0px 0px;
+  padding: 5px;
+  position: relative;
 }
 /*Category Colours*/
 .home #title{
@@ -520,6 +520,8 @@ p.ism-badge a.ism-link:hover {
     width: 1000px;
     -webkit-border-radius: 5px; border-radius: 5px; 
     left: 10%;
+    height: 420px;
+    top: 2.5px;
 
 }
 
