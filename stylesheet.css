@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Architects Daughter'), local('ArchitectsDaughter'), url(http://fonts.gstatic.com/s/architectsdaughter/v6/RXTgOOQ9AAtaVOHxx0IUBM3t7GjCYufj5TXV5VnA2p8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 html{
-	font-family: Trebuchet MS, Trebuchet, Helvetica, sans-serif;
-  background-color: rgb(177, 164, 144);
+	font-family: 'Architects Daughter', cursive;
+  background-color: #3F2860;
+  /*background-color: rgb(177, 164, 144);
 	background-color: rgb(235, 136, 3);
 	background-color: rgb(214, 236, 255);/*
 	background-color: rgb(254,212,107);*/
@@ -151,36 +159,62 @@ body{
 }
 /*Category Colours*/
 .home #title{
-	background: radial-gradient(farthest-side at 20% 75%, rgb(178,227,137), rgb(214,236,255));
+	background: #3F2860;
+  border-radius: 7px;
 }
 .about #title{
-	background: radial-gradient(farthest-side at 20% 75%, rgb(242,114,175), rgb(214,236,255));
+	background: #3F2860;
+  border-radius: 7px;
 }
 .appetisers #title{
-	background: radial-gradient(farthest-side at 20% 75%, rgb(254,212,107), rgb(214,236,255));
+	background: radial-gradient(farthest-side at 20% 20%, rgb(254,212,107), #3F2860);
+  border-radius: 7px;
 }
 .main-courses #title{
-	background: radial-gradient(farthest-side at 20% 75%, rgb(80,217,255), rgb(214,236,255));
+	background: radial-gradient(farthest-side at 20% 20%, rgb(80,217,255), #3F2860);
+  border-radius: 7px;
 }
 .desserts #title{
-	background: radial-gradient(farthest-side at 20% 75%, rgb(171,184,221), rgb(214,236,255));
+	background: radial-gradient(farthest-side at 20% 20%, rgb(171,184,221), #3F2860);
+  border-radius: 7px;
 }
 .snacks-and-drinks #title{
-	background: radial-gradient(farthest-side at 20% 75%, rgb(95,231,213), rgb(214,236,255));
+	background: radial-gradient(farthest-side at 20% 20%, rgb(95,231,213), #3F2860);
+  border-radius: 7px;
 }
 #webname{
 	float: right;
 	color: inherit;
 	text-decoration: inherit;
+  /*color: #7A9A95;*/
+  color: #90C5A9;
 }
 #rcpttl{
 	position: absolute;
 	bottom: 0px;
+  color: #EF6D3B;
+  font-size: 50px;
+  font-family: 'Architects Daughter', cursive;
+}
+#rcpttlabout{
+  position: absolute;
+  bottom: 0px;
+  color: rgb(234, 21, 122);
+  font-size: 50px;
+  font-family: 'Architects Daughter', cursive;
+}
+#rcpttlapp{
+  color: rgb(254,212,107);
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  font-family: 'Architects Daughter', cursive;
 }
 #home, #recipe{
 	background-color: rgb(78,91,111);
 	padding: 0px 5px 5px 0px;
 	margin: 5px 0px 0px 0px;
+  border-radius: 7px;
 }
 #picturebox, #ingredients, #method{
 	background-color: rgb(214,236,255);
@@ -431,7 +465,7 @@ p.ism-badge {
   font-size: 10px;
   padding-top: 1px;
   color: #ccc;
-  font-family: sans-serif;
+  font-family: 'Architects Daughter' cursive;
   font-weight: normal;
 }
 
@@ -669,7 +703,7 @@ ol.ism-radios {
 
 .ism-slider .ism-slide-0 .ism-caption-0 {
     font-size: 1.25em;
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
     position: absolute; top: 10%;
     left: 5%;
     border-radius: 4px;
@@ -678,7 +712,7 @@ ol.ism-radios {
 }
 .ism-slider .ism-slide-0 .ism-caption-1 {
     font-size: 1.25em;
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
     position: absolute; top: 60%;
     left: 40%;
     border-radius: 4px;
@@ -687,7 +721,7 @@ ol.ism-radios {
 }
 .ism-slider .ism-slide-0 .ism-caption-2 {
     font-size: 1.25em;
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
     position: absolute; top: 20%;
     left: 60%;
     border-radius: 4px;
@@ -697,7 +731,7 @@ ol.ism-radios {
 
 .ism-slider .ism-slide-1 .ism-caption-0 {
     font-size: 1.25em;
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
     position: absolute; top: 10%;
     left: 5%;
     border-radius: 4px;
@@ -707,7 +741,7 @@ ol.ism-radios {
 
 .ism-slider .ism-slide-1 .ism-caption-1 {
     font-size: 1.25em;
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
     position: absolute; top: 60%;
     left: 40%;
     border-radius: 4px;
@@ -717,7 +751,7 @@ ol.ism-radios {
 
 .ism-slider .ism-slide-1 .ism-caption-2 {
     font-size: 1.25em;
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
     position: absolute; top: 20%;
     left: 60%;
     border-radius: 4px;
@@ -727,7 +761,7 @@ ol.ism-radios {
 
 .ism-slider .ism-slide-2 .ism-caption-0 {
     font-size: 1.25em;
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
     position: absolute; top: 10%;
     left: 5%;
     border-radius: 4px;
@@ -737,7 +771,7 @@ ol.ism-radios {
 
 .ism-slider .ism-slide-2 .ism-caption-1 {
     font-size: 1.25em;
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
     position: absolute; top: 60%;
     left: 40%;
     border-radius: 4px;
@@ -747,7 +781,7 @@ ol.ism-radios {
 
 .ism-slider .ism-slide-2 .ism-caption-2 {
     font-size: 1.25em;
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
     position: absolute; top: 20%;
     left: 60%;
     border-radius: 4px;
