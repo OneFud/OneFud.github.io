@@ -1,6 +1,6 @@
 html{
 	font-family: Trebuchet MS, Trebuchet, Helvetica, sans-serif;
-	background-color: rgb(177, 164, 144);
+  background-color: rgb(177, 164, 144);
 	background-color: rgb(235, 136, 3);
 	background-color: rgb(214, 236, 255);/*
 	background-color: rgb(254,212,107);*/
@@ -519,7 +519,7 @@ p.ism-badge a.ism-link:hover {
 .ism-slider {
     width: 1000px;
     -webkit-border-radius: 5px; border-radius: 5px; 
-    left: 10%;
+    left: 10.5%;
     height: 420px;
     top: 2.5px;
 
