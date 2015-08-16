@@ -167,19 +167,19 @@ body{
   border-radius: 7px;
 }
 .appetisers #title{
-	background: radial-gradient(farthest-side at 20% 20%, rgb(254,212,107), #3F2860);
+	background: #3F2860;
   border-radius: 7px;
 }
 .main-courses #title{
-	background: radial-gradient(farthest-side at 20% 20%, rgb(80,217,255), #3F2860);
+	background: #3F2860;
   border-radius: 7px;
 }
 .desserts #title{
-	background: radial-gradient(farthest-side at 20% 20%, rgb(171,184,221), #3F2860);
+	background: #3F2860;
   border-radius: 7px;
 }
 .snacks-and-drinks #title{
-	background: radial-gradient(farthest-side at 20% 20%, rgb(95,231,213), #3F2860);
+	background: #3F2860;
   border-radius: 7px;
 }
 #webname{
@@ -205,6 +205,27 @@ body{
 }
 #rcpttlapp{
   color: rgb(254,212,107);
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  font-family: 'Architects Daughter', cursive;
+}
+#rcpttlmain{
+  color: rgb(80,217,255);
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  font-family: 'Architects Daughter', cursive;
+}
+#rcpttldes{
+  color: rgb(171,184,221);
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  font-family: 'Architects Daughter', cursive;
+}
+#rcpttlsnack{
+  color: rgb(95,231,213);
   position: absolute;
   bottom: 0px;
   font-size: 50px;
