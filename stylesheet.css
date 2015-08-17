@@ -257,6 +257,19 @@ body{
 	box-shadow: 2px 4px 2px rgb(242,114,175);
   transition: width 0.5s ease-in-out, box-shadow 0.5s ease-in-out, position 0.5s ease-in-out;
 }
+#picturebox1{
+  min-height: calc(100% - 15px);
+  width: calc(30% - 15px);
+  float: left;
+  position: relative;
+}
+#picturebox1 img{
+  width: 100%;
+  border: transparent;
+  border-radius: 3px;
+  box-shadow: 2px 4px 2px rgb(242,114,175);
+  transition: width 0.5s ease-in-out, box-shadow 0.5s ease-in-out, position 0.5s ease-in-out;
+}
 .appetisers #picturebox img{
 	box-shadow: 2px 4px 2px rgb(254,212,107);
 }
@@ -269,8 +282,17 @@ body{
 .snacks-and-drinks #picturebox img{
 	box-shadow: 2px 4px 2px rgb(95,231,213);
 }
+.snacks-and-drinks #picturebox1 img{
+  box-shadow: 2px 4px 2px rgb(95,231,213);
+}
 #picturebox img:hover{
-  width: 200%;
+  width: 120%;
+  z-index: 10;
+  position: absolute;
+  box-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.7);
+}
+#picturebox1 img:hover{
+  width: 101%;
   z-index: 10;
   position: absolute;
   box-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.7);
